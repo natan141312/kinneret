@@ -1,0 +1,195 @@
+
+html {
+    font-family: 'Arial';
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+.ul {
+    list-style-type: none;
+    ;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0)
+}
+
+li {
+    float: right;
+    font-weight: bold;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 11px;
+    text-decoration: none;
+    border-bottom: 0px;
+}
+
+li a:hover {
+    background-color: rgb(183, 255, 239);
+    text-decoration: none;
+    border-bottom: 10px;
+    color: black;
+}
+
+#page:hover {
+    background-color: rgba(255, 255, 255, 0.897);
+    color: black;
+}
+
+#contact_data {
+    text-align: center;
+    margin-top: 1px;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    display: block;
+}
+
+.img-container {
+    background-image: url("../img/kin.jpg");
+    height: 850px;
+    background-size: cover;
+    position: relative;
+}
+
+#clockDisplay{
+    width: 6.1%;
+    position: absolute;
+    transform: translate(104%,-112%);
+    font-size: 21px;
+    padding-left: 9px;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    font-family: 'digital-clock-font' ;
+    color: black;
+    background-color: white;
+    border: 8px solid rgba(2, 9, 14, 0.795);
+    box-shadow: rgb(31, 29, 29) 1px 0px 8px 4px;
+
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 350px;
+    width: 100%;
+    background: white;
+    padding: 25px ;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px 1px black;
+}
+
+
+ .wrapper h1{
+    text-align: center;
+    transform: translate(0%,-20%);
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    margin: 0 auto;
+    width: 88%;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.wrapper .input_field{
+    margin-bottom: 12px;
+    transform: translate(7%,10%);
+}
+
+.wrapper .input_field input[type="text"],
+ .wrapper textarea{
+    width: 80%;
+    border: 1px solid  gray;
+    padding : 10px;
+}
+.wrapper textarea{
+    height: 80px;
+    resize: none;
+}
+
+.wrapper .btn input[type="submit"]{
+    border: 0;
+    background:none;
+    margin-top: 15px;
+    padding: 10px;
+    width: 80%;
+    background:black;
+    color: white;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transform: translate(12%,5%);}
+.button input[type="submit"]:hover{
+    color: black;
+    background-color: gray;
+    transition:1.2s;
+}
+
+
+.wrapper #error_message{
+    margin-bottom:20px ;
+    padding: 0px;
+    background: #fe8b83;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5 ease;
+}
+.wrapper #success_message{
+        margin-bottom:20px ;
+        padding: 0px;
+        background: #fe8b83;
+        text-align: center;
+        font-size: 14px;
+        transition: all 0.5 ease;
+    }
+p{
+    text-align: center;
+    font-weight: bold;
+}
+#firstname{
+    text-align: right;
+}
+#lastname{
+    text-align: right;
+}
+#email{
+  text-align: right;   
+}
+#phone{
+    text-align: right;
+}
+#message{
+    text-align: right;
+}
+
+#ppp h2{
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background:rgba(0, 0, 0, 0.89)
+}
+
+#ppp p {
+    transform:translate(0%,-70%);
+    text-align: center;
+    color:white;
+    background: rgba(0, 0, 0, 0.904);
+}
+
+
+#ppp{
+    display: none;
+}
